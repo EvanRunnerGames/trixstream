@@ -181,6 +181,14 @@ body {
   color: white;
 }
 
+.show-checkbox:checked ~ .movies {
+  display: none;
+}
+
+.first-fix {
+  margin-top: 10px;
+}
+
 .cur-hovor:hover {
   cursor: pointer;
 }
